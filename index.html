@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Steller main styles -->
 	<link rel="stylesheet" href="assets/css/steller.css">
+    <!-- Modern Tech Styles -->
+    <link rel="stylesheet" href="assets/css/modern-tech.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
@@ -73,7 +77,14 @@
             <div class="infos">
                 <h6 class="subtitle">hello, I'm</h6>
                 <h6 class="title">Federico <br> Fiorio</h6>
-                <p>Computer Scientist</p>
+                <p>Data Engineer & ML Specialist</p>
+                <div class="tech-badges">
+                    <span class="badge">Python</span>
+                    <span class="badge">PySpark</span>
+                    <span class="badge">Databricks</span>
+                    <span class="badge">Airflow</span>
+                    <span class="badge">ML</span>
+                </div>
 
                 <div class="buttons pt-3">
                     <button class="btn btn-dark rounded" id="downloadButton">DOWNLOAD CV</button>
@@ -324,7 +335,7 @@
         <div class="uni">
             <div class="experience-item">
                 <a href="https://studies.ku.dk/" target="_blank">
-                    <img src="assets/imgs/logo-university-copenhagen-round.png" alt="uni Logo" width="280" height="280">
+                    <img src="assets/imgs/logo-university-copenhagen-round.png" alt="uni Logo" width="130" height="130">
                 </a>
                 <p><h5>ERASMUS+ Msc Degree</h5></p>
                 <p>09/2022 - 02/2023</p>
@@ -367,8 +378,8 @@
     <!-- Skills section -->
     <section class="section" id="skills">
         <div class="container text-center">
-            <h6 class="bigger-title">Skills</h6>
-            <p class="mb-5 pb-4"> "The more that you read, the more things you will know. The more that you learn, the more places you'll go." - Dr. Seuss</p>
+            <h6 class="bigger-title">Technical Skills</h6>
+            <p class="mb-5 pb-4">"Technology is best when it brings people together." - Matt Mullenweg</p>
             <section>
                 <p><h5>Data Engineering</h5></p>
                 <div class="row text-left">
@@ -490,7 +501,7 @@
                 <div class="col-sm-6">
                     <h6 class="mb-3">Databricks</h6>
                     <div class="progress">
-                        <div class="progress-bar bg-primary" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>89%</span></div>
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>89%</span></div>
                     </div>
                 </div>
                 <div class="col-sm-6">
@@ -552,6 +563,15 @@
                             <h2>AWS</h2>
                             <p style="text-align: left;">Machine learning engineer specialty</p>
                             <a href="https://www.credly.com/badges/1bd8aeac-3217-4d8b-98f7-5a01b18bac47/linked_in_profile" target="_blank" style="color: #2e0cb5;">Certification</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="overlay">
+                        <div class="certifications">
+                            <h2>Databricks</h2>
+                            <p style="text-align: left;">Certified Data Engineer Associate</p>
+                            <a href="https://credentials.databricks.com/db32b598-a369-4d46-8466-2efa4b63d798#acc.EYPrp1ny" target="_blank" style="color: #2e0cb5;">Certification</a>
                         </div>
                     </div>
                 </div>
@@ -679,6 +699,61 @@
     </section>
     <hr>
     <!-- End of portfolio section -->
+
+    <!-- Competitive Programming Section -->
+    <section class="section" id="competitive-programming">
+        <div class="container text-center">
+            <h6 class="bigger-title">Competitive Programming</h6>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="extra">
+                        <h2>Why I Love Competitive Programming</h2>
+                        <p style="text-align: left;">I enjoy sharpening my problem-solving skills through coding contests and algorithmic challenges. I regularly participate in LeetCode contests, explore new algorithms, and sometimes train on HackerRank too. I also maintain a repository of interesting problems and solutions, which you can check out below!</p>
+                        <div style="margin-top: 1.5rem;">
+                            <a href="https://leetcode.com/FedericoFiorio/" target="_blank">LeetCode Profile</a>
+                            <a href="https://www.hackerrank.com/profile/f_goldrik" target="_blank" style="margin-left: 10px;">HackerRank Profile</a>
+                            <a href="https://github.com/fedeflowers/DSA" target="_blank" style="margin-left: 10px;">DSA GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--EXTRA-->
+    <section  class="section" id="service">
+        <div class="container text-center">
+            <h6 class="bigger-title">EXTRA</h6>
+            <p class="mb-5 pb-4">"Go the extra mile; it's never crowded there." - Wayne Dyer</p>
+    
+            <style>
+                .extra {
+                    margin-bottom: 20px; /* Adjust the value to control the amount of space */
+                }
+            </style>
+    
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="overlay">
+                        <div class="extra">
+                            <h2>GCP profile</h2>
+                            <p style="text-align: left;">My google cloud badges</p>
+                            <a href="https://partner.cloudskillsboost.google/public_profiles/a2338a80-651d-4b47-9e75-b6a0381db1c7" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="overlay">
+                        <div class="extra">
+                            <h2>LeetCode</h2>
+                            <p style="text-align: left;">My completed LeetCode problems, I like to keep myself sharp</p>
+                            <a href="https://leetcode.com/FedericoFiorio/" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Testmonial Section 
     <section id="testmonial" class="section">
@@ -809,51 +884,8 @@
     <!-- End od Hire me section. -->
 
 
-    <!--EXTRA-->
-    <section  class="section" id="service">
-        <div class="container text-center">
-            <h6 class="bigger-title">EXTRA</h6>
-            <p class="mb-5 pb-4">"Go the extra mile; it's never crowded there." - Wayne Dyer</p>
-    
-            <style>
-                .extra {
-                    margin-bottom: 20px; /* Adjust the value to control the amount of space */
-                }
-            </style>
-    
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="overlay">
-                        <div class="extra">
-                            <h2>GCP profile</h2>
-                            <p style="text-align: left;">My google cloud badges</p>
-                            <a href="https://partner.cloudskillsboost.google/public_profiles/a2338a80-651d-4b47-9e75-b6a0381db1c7" target="_blank">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="overlay">
-                        <div class="extra">
-                            <h2>LeetCode</h2>
-                            <p style="text-align: left;">My completed LeetCode problems, I like to keep myself sharp</p>
-                            <a href="https://leetcode.com/FedericoFiorio/" target="_blank">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-
-
-
-
     <!-- Page Footer -->
-    <footer class="page-footer" style="background-color: rgb(234, 139, 56)">
+    <footer class="page-footer">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-sm-6">
@@ -872,6 +904,62 @@
 
     <!-- steller js -->
     <script src="assets/js/steller.js"></script>
+    
+    <!-- Modern Tech JS -->
+    <script>
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all elements with animation classes
+        document.addEventListener('DOMContentLoaded', () => {
+            const animatedElements = document.querySelectorAll('.fade-in, .slide-in-left, .slide-in-right');
+            animatedElements.forEach(el => observer.observe(el));
+            
+            // Add animation classes to sections
+            document.querySelectorAll('.section').forEach((section, index) => {
+                if (index % 2 === 0) {
+                    section.classList.add('fade-in');
+                } else {
+                    section.classList.add('slide-in-left');
+                }
+            });
+            
+            // Add animation to project cards
+            document.querySelectorAll('.project-info, .certifications, .extra').forEach((card, index) => {
+                card.classList.add('fade-in');
+            });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add loading animation
+        window.addEventListener('load', () => {
+            document.body.classList.add('loaded');
+        });
+    </script>
 
 </body>
 </html>
